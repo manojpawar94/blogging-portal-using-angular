@@ -1,0 +1,153 @@
+[
+    {
+        "id": 1,
+        "title": "Introduction to Go Language",
+        "shortTitle": "Introduction",
+        "author": "Manoj Pawar",
+        "postedAt": "22 Oct 2022, Friday",
+        "filepath": "/golang/01_Introduction.md",
+        "tag" : ["Go Language", "Tutorial"],
+        "category" : "Go Programming",
+        "isRecent" : false,
+        "isFeatured": false
+    },{
+        "id": 2,
+        "title": "First Program in Go Language",
+        "shortTitle": "Hello World Program",
+        "author": "Manoj Pawar",
+        "postedAt": "22 Oct 2022, Friday",
+        "filepath": "/golang/02_Hello_World.md",
+        "tag" : ["Go Language", "Tutorial"],
+        "category" : "Go Programming",
+        "isRecent" : false,
+        "isFeatured": false
+    },{
+        "id": 3,
+        "title": "Data Types in the Go Langauge",
+        "shortTitle": "Data Types",
+        "author": "Manoj Pawar",
+        "postedAt": "24 Oct 2022, Sunday",
+        "filepath": "/golang/03_Types.md",
+        "tag" : ["Go Language", "Tutorial"],
+        "category" : "Go Programming",
+        "isRecent" : false,
+        "isFeatured": false
+    },{
+        "id": 4,
+        "title": "Variables in the Go Langauge",
+        "shortTitle": "Variables",
+        "author": "Manoj Pawar",
+        "postedAt": "24 Oct 2022, Sunday",
+        "filepath": "/golang/04_Variables.md",
+        "tag" : ["Go Language", "Tutorial"],
+        "category" : "Go Programming",
+        "isRecent" : false,
+        "isFeatured": false
+    },{
+        "id": 5,
+        "title": "Control Statement: If-Else in the Go Langauge",
+        "shortTitle": "Control Statements: If-Else",
+        "author": "Manoj Pawar",
+        "postedAt": "24 Oct 2022, Sunday",
+        "filepath": "/golang/05_If_Else.md",
+        "tag" : ["Go Language", "Tutorial"],
+        "category" : "Go Programming",
+        "isRecent" : false,
+        "isFeatured": false
+    },{
+        "id": 6,
+        "title": "Control Statement: Switch Case in the Go Langauge",
+        "shortTitle": "Control Statement: Switch Case",
+        "author": "Manoj Pawar",
+        "postedAt": "24 Oct 2022, Sunday",
+        "filepath": "/golang/05_Switch_Case.md",
+        "tag" : ["Go Language", "Tutorial"],
+        "category" : "Go Programming",
+        "isRecent" : false,
+        "isFeatured": false
+    },{
+        "id": 7,
+        "title": "Control Statement: For Loop in the Go Langauge",
+        "shortTitle": "Control Statement: For Loop",
+        "author": "Manoj Pawar",
+        "postedAt": "24 Oct 2022, Sunday",
+        "filepath": "/golang/07_For_Loop.md",
+        "tag" : ["Go Language", "Tutorial"],
+        "category" : "Go Programming",
+        "isRecent" : false,
+        "isFeatured": false
+    },{
+        "id": 8,
+        "title": "Arrays in the Go Langauge",
+        "shortTitle": "Arrays",
+        "author": "Manoj Pawar",
+        "postedAt": "24 Oct 2022, Sunday",
+        "filepath": "/golang/08_Arrays.md",
+        "tag" : ["Go Language", "Tutorial"],
+        "category" : "Go Programming",
+        "isRecent" : false,
+        "isFeatured": false
+    },{
+        "id": 9,
+        "title": "Slice in the Go Langauge",
+        "shortTitle": "Slice",
+        "author": "Manoj Pawar",
+        "postedAt": "24 Oct 2022, Sunday",
+        "filepath": "/golang/09_Slice.md"
+    },{
+        "id": 10,
+        "title": "Maps in the Go Langauge",
+        "shortTitle": "Maps",
+        "author": "Manoj Pawar",
+        "postedAt": "24 Oct 2022, Sunday",
+        "filepath": "/golang/10_Map.md",
+        "tag" : ["Go Language", "Tutorial"],
+        "category" : "Go Programming",
+        "isRecent" : false,
+        "isFeatured": false
+    },{
+        "id": 11,
+        "title": "Functions in the Go Langauge",
+        "shortTitle": "Functions",
+        "author": "Manoj Pawar",
+        "postedAt": "24 Oct 2022, Sunday",
+        "filepath": "/golang/11_Functions.md",
+        "tag" : ["Go Language", "Tutorial"],
+        "category" : "Go Programming",
+        "isRecent" : false,
+        "isFeatured": false
+    },{
+        "id": 12,
+        "title": "Pointers in the Go Langauge",
+        "shortTitle": "Pointers",
+        "author": "Manoj Pawar",
+        "postedAt": "24 Oct 2022, Sunday",
+        "filepath": "/golang/12_Pointer.md",
+        "tag" : ["Go Language", "Tutorial"],
+        "category" : "Go Programming",
+        "isRecent" : false,
+        "isFeatured": false
+    },{
+        "id": 13,
+        "title": "Structs and Interfaces in the Go Langauge",
+        "shortTitle": "Structs and Interfaces",
+        "author": "Manoj Pawar",
+        "postedAt": "24 Oct 2022, Sunday",
+        "filepath": "/golang/13_Struct_and_Interface.md",
+        "tag" : ["Go Language", "Tutorial"],
+        "category" : "Go Programming",
+        "isRecent" : false,
+        "isFeatured": false
+    },{
+        "id": 14,
+        "title": "Concurrency in the Go Langauge",
+        "shortTitle": "Concurrency",
+        "author": "Manoj Pawar",
+        "postedAt": "24 Oct 2022, Sunday",
+        "filepath": "/golang/14_Concurrency.md",
+        "tag" : ["Go Language", "Tutorial"],
+        "category" : "Go Programming",
+        "isRecent" : false,
+        "isFeatured": false
+    }
+]
