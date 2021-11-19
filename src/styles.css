@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css");
+
+.card {
+    border-radius: 1rem !important;
+    border: none !important;
+    background: #fdfdfd;
+}
+
+.card img {
+    border-top-left-radius: 1rem !important;
+    border-top-right-radius: 1rem !important;
+}
+
+pre {
+    border-radius: 1rem !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(29, 155, 240) !important;
+}

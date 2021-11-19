@@ -1,0 +1,4 @@
+<a *ngFor="let mediaResource of mediaResources" [href]="mediaResource.link" target="_blank" data-bs-toggle="tooltip"
+    data-bs-placement="bottom" [title]="mediaResource.name" class="me-3">
+    <i [class]="mediaResource.icon" role="img" aria-label="mediaResource.name"></i>
+</a>

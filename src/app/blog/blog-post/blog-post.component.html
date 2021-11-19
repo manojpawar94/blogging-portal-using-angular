@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="col-sm-9 p-4" id="post-start">
+        <div markdown [data]="markdownData"></div>
+    </div>
+    <div class="col-sm-3 pt-5" >
+        <h4 class="mb-4">Related Posts</h4>
+
+        <ul class="recent-post">
+            <li *ngFor="let goPost of goPosts">
+                <div (click)="openPost(goPost)">{{goPost.shortTitle}}</div>
+            </li>
+        </ul>
+
+    </div>
+</div>

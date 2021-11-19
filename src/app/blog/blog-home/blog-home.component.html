@@ -1,0 +1,19 @@
+<div class="row p-4">
+    <div class="col-sm-12">
+        <h2>Go Language Tutorials</h2>
+    </div>
+</div>
+<div class="row" *ngIf="goPosts">
+    <ng-container *ngFor="let goPost of goPosts">
+        <div class="col-sm-4">
+            <div class="card mb-4 clickable" (click)="openPost(goPost)">
+                <div class="card-body">
+                    <h5 class="card-title text-truncate">{{goPost.title}}</h5>
+                    <p class="card-text">
+                        <small class="text-muted">{{goPost.author}}  {{ goPost.postedAt}}</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </ng-container>
+</div>

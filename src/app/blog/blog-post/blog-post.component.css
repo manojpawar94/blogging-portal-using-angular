@@ -1,0 +1,21 @@
+ul.recent-post {
+    list-style-type:none !important;
+    padding-left: 1rem !important;
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+ul.recent-post li {
+    cursor: pointer !important;
+    padding-top: 0.7rem !important;
+    padding-bottom: 0.7rem !important;
+    border-bottom: 1px #ccc dashed !important;
+}
+
+ul.recent-post li:last-child {
+    border-bottom: none !important;
+}
+
+ul.recent-post li:hover {
+    color: rgb(29, 155, 240) !important;
+}

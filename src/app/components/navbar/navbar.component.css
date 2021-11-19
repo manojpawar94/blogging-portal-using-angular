@@ -1,0 +1,31 @@
+.navbar-shadow{
+    background: #ffffff !important;
+    /*box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;*/
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    padding-top: 1rem !important;
+}
+
+.navbar-brand {
+    color: rgb(29, 155, 240) !important;
+    font-size: 1.5rem !important;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+    color: rgb(4, 142, 235) !important;
+    font-size: 1.25rem !important;
+    background: rgba(4, 143, 235, 0.144) !important;
+    border-radius: 1rem !important;
+    cursor: pointer !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(29, 155, 240) !important;
+    font-size: 1.25rem !important;
+    cursor: pointer !important;
+}
+
+.nav-item a {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+}
