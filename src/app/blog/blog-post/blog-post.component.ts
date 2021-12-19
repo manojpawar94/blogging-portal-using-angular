@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, NavigationExtras, Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { GoPost } from 'src/app/beans/posts.beans';
-import GoPostJson from '../../../assets/blogs/go-post.json';
+import GoPostJson from '../../../assets/blogs/golang-post.json';
 import { FileReaderService } from 'src/app/services/file-reader.service';
 
 @Component({

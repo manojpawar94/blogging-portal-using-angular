@@ -1,0 +1,18 @@
+.img-rounded-start{
+    border-top-left-radius: 1rem !important;
+    border-bottom-left-radius: 1rem !important;
+    height: 187px !important;
+    display: block !important;
+}
+
+.card-box {
+    height: 187px !important;
+}
+
+.text-truncate-container {
+    display: -webkit-box !important;
+    max-width: 100% !important;
+    -webkit-line-clamp: 3 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+}

@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="col-md-6" *ngFor="let ide of languageIdes">
+        <div class="card mb-4 card-box">
+            <div class="row g-0">
+                <div class="col-4">
+                    <img [src]="ide.image" class="img-fluid img-rounded-start" alt="...">
+                </div>
+                <div class="col-8">
+                    <div class="card-body">
+                        <h4 class="card-title">{{ide.name}}</h4>
+                        <p class="card-text text-truncate-container">{{ide.description}}</p>
+                        <a [href]="ide.link" class="btn btn-light-primary rounded-pill text-light" target="_blank">Visit <i class="bi bi-box-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

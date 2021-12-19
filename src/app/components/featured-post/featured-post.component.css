@@ -1,0 +1,11 @@
+.card-img {
+    border-radius: 1rem !important;
+    height: 175px !important;
+}
+
+.card-img-main {
+    border-top-left-radius: 1rem !important;
+    border-top-right-radius: 1rem !important;
+    height: 221px !important;
+}
+

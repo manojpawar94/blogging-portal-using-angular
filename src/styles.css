@@ -5,12 +5,7 @@
 .card {
     border-radius: 1rem !important;
     border: none !important;
-    background: #fdfdfd;
-}
-
-.card img {
-    border-top-left-radius: 1rem !important;
-    border-top-right-radius: 1rem !important;
+    background: rgba(29, 156, 240, 0.05) !important;;
 }
 
 pre {
@@ -19,4 +14,8 @@ pre {
 
 h1, h2, h3, h4, h5, h6 {
     color: rgb(29, 155, 240) !important;
+}
+
+.btn-light-primary {
+    background: rgb(29, 155, 240) !important;
 }

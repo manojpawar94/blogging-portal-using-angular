@@ -12,10 +12,9 @@ import { AboutComponent } from './main/about/about.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BlogHomeComponent } from './blog/blog-home/blog-home.component';
 import { BlogPostComponent } from './blog/blog-post/blog-post.component';
-import { ShortMediaComponent } from './components/short-media/short-media.component';
-import { MediaStackComponent } from './components/media-stack/media-stack.component';
-import { MediaHstackComponent } from './components/media-hstack/media-hstack.component';
 import { FeaturedPostComponent } from './components/featured-post/featured-post.component';
+import { SocailMediaComponent } from './components/socail-media/socail-media.component';
+import { LangIdeComponent } from './components/lang-ide/lang-ide.component';
 
 @NgModule({
   declarations: [
@@ -26,10 +25,9 @@ import { FeaturedPostComponent } from './components/featured-post/featured-post.
     FooterComponent,
     BlogHomeComponent,
     BlogPostComponent,
-    ShortMediaComponent,
-    MediaStackComponent,
-    MediaHstackComponent,
-    FeaturedPostComponent
+    FeaturedPostComponent,
+    SocailMediaComponent,
+    LangIdeComponent
   ],
   imports: [
     BrowserModule,

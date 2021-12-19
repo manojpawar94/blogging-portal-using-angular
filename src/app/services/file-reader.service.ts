@@ -8,16 +8,16 @@ import { ServiceUtils } from './service.utils';
 })
 export class FileReaderService {
 
-  rootpath: string = "assets/blogs"
+  rootpath: string = "assets"
 
   constructor(private http: HttpClient) { }
 
   fetchContent(filename: string) {
-    return this.http.get(`${this.rootpath}${filename}`, { responseType: 'text' })
+    return this.http.get(`${this.rootpath}/${filename}`, { responseType: 'text' })
   }
 
   fetchTextContent(filename: string) {
-    return fetch(`assets/blogs/golangs/01_Introduction_to_Go_Language.md`)
+    return fetch(`${this.rootpath}/${filename}`)
       .then(response => response.text())
   }
 }

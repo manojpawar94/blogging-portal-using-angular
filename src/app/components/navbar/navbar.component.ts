@@ -28,10 +28,13 @@ export class NavbarComponent implements OnInit {
     this.isCollapsed = !this.isCollapsed
   }
 
-  openLink(navLink: HTMLElement, routerLink: string) {
+  openLink(navLink: HTMLElement, routerLink: string, toggleButton: HTMLElement, collapsePanel: HTMLElement) {
     this.selectedElement?.classList.remove('active')
     this.selectedElement = navLink
     navLink.classList.add('active');
+    this.isCollapsed = false
+    toggleButton.classList.add('collapsed');
+    collapsePanel.classList.remove('show');
     this.router.navigate([routerLink]);
   }
 

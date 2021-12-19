@@ -1,1 +1,24 @@
-<p>featured-post works!</p>
+<div class="row">
+    <div class="col-md-6">
+        <div class="card mb-2" *ngFor="let post of goFeaturedPosts | slice:0:1;">
+            <img src="assets/images/golang-post-bg.jpg" class="card-img-top card-img-main" alt="background">
+            <div class="card-body">
+                <h4 class="card-title mb-2">{{post.title}}</h4>
+                <h6 class="card-subtitle mb-3 text-muted">{{post.author}}, {{post.postedAt}}</h6>
+                <button class="btn btn-light-primary rounded-pill text-white" (click)="openPost(post)">Read More <i class="bi bi-three-dots"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card bg-dark text-white mb-2" *ngFor="let post of goFeaturedPosts | slice:1:3;">
+            <img src="assets/images/golang-banner.jpg" class="card-img" alt="background">
+            <div class="card-img-overlay">
+                <h4 class="card-title text-light">{{post.title}}</h4>
+                <p class="card-text">{{post.author}}, {{post.postedAt}}</p>
+                <p class="card-text">
+                    <button class="btn btn-light rounded-pill" (click)="openPost(post)">Read More <i class="bi bi-three-dots"></i></button>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

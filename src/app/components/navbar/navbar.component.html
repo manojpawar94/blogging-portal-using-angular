@@ -1,25 +1,28 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-shadow">
-    <div class="container-fluid">
-        <a class="navbar-brand" (click)="openLink(homeLink,'home')">{{title}}</a>
-        <button #toggleButton class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="toggleCollapsePanl(toggleButton,collapsePanel)">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div #collapsePanel class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <span class="navbar-nav me-auto mb-2 mb-lg-0"></span>
-            <form class="d-flex">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a #homeLink class="nav-link" aria-current="page" (click)="openLink(homeLink,'home')">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a #goLink class="nav-link" (click)="openLink(goLink,'blogs/golang')">Go Language</a>
-                  </li>
-                  <li class="nav-item">
-                    <a #aboutLink class="nav-link" (click)="openLink(aboutLink,'about')">About</a>
-                  </li>
-              </ul>
-            </form>
-          </div>
+  <div class="container-fluid">
+    <a class="navbar-brand" (click)="openLink(homeLink,'home',toggleButton,collapsePanel)">{{title}}</a>
+    <button #toggleButton class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+      aria-label="Toggle navigation" (click)="toggleCollapsePanl(toggleButton,collapsePanel)">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div #collapsePanel class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <span class="navbar-nav me-auto mb-2 mb-lg-0"></span>
+      <form class="d-flex">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a #homeLink class="nav-link" aria-current="page"
+              (click)="openLink(homeLink,'home',toggleButton,collapsePanel)">Home</a>
+          </li>
+          <li class="nav-item">
+            <a #goLink class="nav-link" (click)="openLink(goLink,'blogs/golang',toggleButton,collapsePanel)">Go
+              Language</a>
+          </li>
+          <li class="nav-item">
+            <a #aboutLink class="nav-link" (click)="openLink(aboutLink,'about',toggleButton,collapsePanel)">About</a>
+          </li>
+        </ul>
+      </form>
     </div>
+  </div>
 </nav>
