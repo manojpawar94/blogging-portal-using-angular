@@ -149,5 +149,16 @@
         "category" : "Go Programming",
         "isRecent" : false,
         "isFeatured": true
+    },{
+        "id": 15,
+        "title": "Concurrency in the Go Langauge",
+        "shortTitle": "Concurrency",
+        "author": "Manoj Pawar",
+        "postedAt": "24 Oct 2022, Sunday",
+        "filepath": "blogs/golang/14_Concurrency.md",
+        "tag" : ["Go Language", "Tutorial"],
+        "category" : "Go Programming",
+        "isRecent" : false,
+        "isFeatured": true
     }
 ]
